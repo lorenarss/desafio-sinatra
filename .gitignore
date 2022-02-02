@@ -11,3 +11,4 @@
 ## Environment normalization:
 /.bundle
 /vendor/bundle
+/coverage/
