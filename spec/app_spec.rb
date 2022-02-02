@@ -17,28 +17,28 @@ describe 'app' do
 
   context 'GET /academic' do
     it 'returns status code 200' do
-     get '/academic'
+      get '/academic'
       expect(last_response.status).to eq(200)
     end
   end
 
   context 'GET /link' do
     it 'returns status code 200' do
-     get '/link'
+      get '/link'
       expect(last_response.status).to eq(200)
     end
   end
 
   context 'GET /link1 error' do
     it 'returns status code 404' do
-     get '/link1'
+      get '/link1'
       expect(last_response.status).to eq(404)
     end
   end
 
   context 'GET /academic error' do
     it 'returns status code 404' do
-     get '/academic11'
+      get '/academic11'
       expect(last_response.status).to eq(404)
     end
   end
